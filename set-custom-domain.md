@@ -1,12 +1,12 @@
 ---
 layout: deprecated
-title: Change Default Security
+title: Set Custom Domain
 categories: account
 ---
 
-# Change Default Security
+# Set Custom Domain
 
-Change the security of newly created items to either private (long links) or public (short links). Privacy can be set on a per-item basis after creation.
+If the account has a CloudApp Pro subscription, add or change the domain used for all links. Optionally, a URL may be provided to redirect visitors to the custom domain's root.
 
 
 ## Request
@@ -18,7 +18,8 @@ Change the security of newly created items to either private (long links) or pub
 
       {
         "user": {
-          "private_items": false
+          "domain":           "dent.com",
+          "domain_home_page": "http://hhgproject.org"
         }
       }
 
@@ -31,15 +32,16 @@ Change the security of newly created items to either private (long links) or pub
       {
         "id":               1,
         "email":            "arthur@dent.com",
-        "domain":           null,
-        "domain_home_page": null,
-        "private_items":    false,
-        "subscribed":       false,
+        "domain":           "dent.com",
+        "domain_home_page": "http://hhgproject.org",
+        "private_items":    true,
+        "subscribed":       true,
         "alpha":            false,
         "created_at":       "2010-12-10T17:07:01Z",
         "updated_at":       "2010-12-10T20:33:38Z",
         "activated_at":     "2010-12-10T17:07:01Z"
       }
+
 
 ## Example
 
@@ -50,8 +52,20 @@ Change the security of newly created items to either private (long links) or pub
          -d \
            '{
               "user": {
-                "private_items": false
+                "domain":           "dent.com",
+                "domain_home_page": "http://hhgproject.org"
               }
             }' \
          -X PUT \
          "http://my.cl.ly/account"
+
+
+## Errors
+
+If the domain or domain home page are unable to be added, an array of errors
+will be returned.
+
+- Status: 422 Unprocessable Entity
+- Body:
+
+      [ "Domain requires a paid plan" ]

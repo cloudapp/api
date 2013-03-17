@@ -1,32 +1,32 @@
 ---
 layout: deprecated
-title: Change Password
+title: Register
 categories: account
 ---
 
-# Change Password
+# Register
 
-Change the password for an account.
+Create a CloudApp account.
 
 
 ## Request
 
-- Requires [authentication](https://github.com/cloudapp/api/blob/master/README.md#authentication) and current password
-- HTTP Method: PUT
-- URL: http://my.cl.ly/account
+- HTTP Method: POST
+- URL: http://my.cl.ly/register
 - Body:
 
       {
         "user": {
-          "password":         "hoopy frood",
-          "current_password": "towel",
+          "email":      "arthur@dent.com",
+          "password":   "towel",
+          "accept_tos": true
         }
       }
 
 
 ## Response
 
-- Status: 200 OK
+- Status: 201 Created
 - Body:
 
       {
@@ -38,7 +38,7 @@ Change the password for an account.
         "subscribed":       false,
         "alpha":            false,
         "created_at":       "2010-12-10T17:07:01Z",
-        "updated_at":       "2010-12-10T20:33:38Z",
+        "updated_at":       "2010-12-10T17:07:01Z",
         "activated_at":     "2010-12-10T17:07:01Z"
       }
 
@@ -46,15 +46,14 @@ Change the password for an account.
 ## Example
 
 {: .shell}
-    curl --digest -u arthur@dent.com:towel \
-         -H "Accept: application/json" \
+    curl -H "Accept: application/json" \
          -H "Content-Type: application/json" \
          -d \
-           '{
+            '{
               "user": {
-                "password":         "hoopy frood",
-                "current_password": "towel"
+                "email":      "arthur@dent.com",
+                "password":   "towel",
+                "accept_tos": true
               }
             }' \
-         -X PUT \
-         "http://my.cl.ly/account"
+         http://my.cl.ly/register

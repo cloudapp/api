@@ -1,6 +1,13 @@
+---
+layout: deprecated
+title: Forgot Password
+categories: account
+---
+
 # Forgot Password
 
 Dispatch an email containing a link to reset the account's password.
+
 
 ## Request
 
@@ -8,28 +15,27 @@ Dispatch an email containing a link to reset the account's password.
 - URL: http://my.cl.ly/reset
 - Body:
 
-  ```js
-  {
-    "user": {
-      "email": "arthur@dent.com"
-    }
-  }
-  ```
+      {
+        "user": {
+          "email": "arthur@dent.com"
+        }
+      }
+
 
 ## Response
 
 - Status: 200 OK
 
+
 ## Example
 
-```bash
-curl -H "Accept: application/json" \
-     -H "Content-Type: application/json" \
-     -d \
-       '{
-          "user": {
-            "email": "arthur@dent.com"
-          }
-        }' \
-     "http://my.cl.ly/reset"
-```
+{: .shell}
+    curl -H "Accept: application/json" \
+         -H "Content-Type: application/json" \
+         -d \
+           '{
+              "user": {
+                "email": "arthur@dent.com"
+              }
+            }' \
+         "http://my.cl.ly/reset"
