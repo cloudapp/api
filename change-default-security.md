@@ -5,7 +5,7 @@ public (short links). Privacy can be set on a per-item basis after creation.
 
 ## Request
 
-- Requires [authentication]()
+- Requires [authentication](https://github.com/cloudapp/api/blob/master/README.md#authentication)
 - HTTP Method: PUT
 - URL: http://my.cl.ly/account
 - Body:
