@@ -1,13 +1,8 @@
----
-layout: deprecated
-title: Set Custom Domain
-categories: account
----
-
 # Set Custom Domain
 
-If the account has a CloudApp Pro subscription, add or change the domain used for all links. Optionally, a URL may be provided to redirect visitors to the custom domain's root.
-
+If the account has a CloudApp Pro subscription, add or change the domain used
+for all links. Optionally, a URL may be provided to redirect visitors to the
+custom domain's root.
 
 ## Request
 
@@ -16,49 +11,51 @@ If the account has a CloudApp Pro subscription, add or change the domain used fo
 - URL: http://my.cl.ly/account
 - Body:
 
-      {
-        "user": {
-          "domain":           "dent.com",
-          "domain_home_page": "http://hhgproject.org"
-        }
-      }
-
+  ```js
+  {
+    "user": {
+      "domain":           "dent.com",
+      "domain_home_page": "http://hhgproject.org"
+    }
+  }
+  ```
 
 ## Response
 
 - Status: 200 OK
 - Body:
 
-      {
-        "id":               1,
-        "email":            "arthur@dent.com",
-        "domain":           "dent.com",
-        "domain_home_page": "http://hhgproject.org",
-        "private_items":    true,
-        "subscribed":       true,
-        "alpha":            false,
-        "created_at":       "2010-12-10T17:07:01Z",
-        "updated_at":       "2010-12-10T20:33:38Z",
-        "activated_at":     "2010-12-10T17:07:01Z"
-      }
-
+  ```js
+  {
+    "id":               1,
+    "email":            "arthur@dent.com",
+    "domain":           "dent.com",
+    "domain_home_page": "http://hhgproject.org",
+    "private_items":    true,
+    "subscribed":       true,
+    "alpha":            false,
+    "created_at":       "2010-12-10T17:07:01Z",
+    "updated_at":       "2010-12-10T20:33:38Z",
+    "activated_at":     "2010-12-10T17:07:01Z"
+  }
+  ```
 
 ## Example
 
-{: .shell}
-    curl --digest -u arthur@dent.com:towel \
-         -H "Accept: application/json" \
-         -H "Content-Type: application/json" \
-         -d \
-           '{
-              "user": {
-                "domain":           "dent.com",
-                "domain_home_page": "http://hhgproject.org"
-              }
-            }' \
-         -X PUT \
-         "http://my.cl.ly/account"
-
+```bash
+curl --digest -u arthur@dent.com:towel \
+     -H "Accept: application/json" \
+     -H "Content-Type: application/json" \
+     -d \
+       '{
+          "user": {
+            "domain":           "dent.com",
+            "domain_home_page": "http://hhgproject.org"
+          }
+        }' \
+     -X PUT \
+     "http://my.cl.ly/account"
+```
 
 ## Errors
 
@@ -68,4 +65,6 @@ will be returned.
 - Status: 422 Unprocessable Entity
 - Body:
 
-      [ "Domain requires a paid plan" ]
+  ```js
+  [ "Domain requires a paid plan" ]
+  ```

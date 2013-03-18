@@ -1,14 +1,7 @@
----
-layout: deprecated
-title: Common Errors
-categories: basics
----
-
 # Common Errors
 
 There are several errors that may be returned by any CloudApp API endpoint.
 These are their stories.
-
 
 ## Unactivated Account
 
@@ -28,4 +21,6 @@ unactivated account will return the following response:
 - Status: 409 Conflict
 - Body:
 
-      [ "Your account hasn't been activated. Please check your email and activate your account." ]
+  ```js
+  [ "Your account hasn't been activated. Please check your email and activate your account." ]
+  ```

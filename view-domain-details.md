@@ -1,13 +1,6 @@
----
-layout: deprecated
-title: View Domain Details
-categories: items
----
-
 # View Domain Details
 
 Get details about a given domain used by a CloudApp user.
-
 
 ## Request
 
@@ -19,10 +12,12 @@ Get details about a given domain used by a CloudApp user.
 - Status: 200 OK
 - Body:
 
-      { "home_page": "http://hhgproject.org" }
-
+  ```js
+  { "home_page": "http://hhgproject.org" }
+  ```
 
 ## Example
 
-{: .shell}
-    curl -H "Accept: application/json" http://api.cld.me/domains/dent.com
+```bash
+curl -H "Accept: application/json" http://api.cld.me/domains/dent.com
+```

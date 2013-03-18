@@ -1,9 +1,3 @@
----
-layout: deprecated
-title: Upload File
-categories: items
----
-
 # Upload File
 
 Files are uploaded directly to [S3](http://aws.amazon.com/s3/) to be as fast as
@@ -15,7 +9,6 @@ newly created item.
 This process may seem complex at first. Not to worry. There are some great tools
 out there like [Charles](http://charlesproxy.com/) to make your life a lot
 easier. Don't go it alone!
-
 
 ## Request to Upload
 
@@ -43,37 +36,41 @@ has unlimited uploads and there are no further upgrade paths.
 - Link: `<http://store.getcloudapp.com/cart?email=arthur%40dent.com>; rel="payment"`
 - Body:
 
-      {
-        "uploads_remaining": 10,
-        "max_upload_size":   26214400,
-        "url":               "http://f.cl.ly",
-        "params": {
-          "AWSAccessKeyId":          "AKIAIDPUZISHSBEOFS6Q",
-          "key":                     "items/qL/${filename}",
-          "acl":                     "public-read",
-          "success_action_redirect": "http://my.cl.ly/items/s3",
-          "signature":               "2vRWmaSy46WGs0MDUdLHAqjSL8k=",
-          "policy":                  "eyJleHBpcmF0aW9uIjoiMjAxMC0wNC0wMVQwMDowMDowMFoiLCJjb25kaXRpb25zIjpbeyJidWNrZXQiOiJsaW5lYnJlYWstdGVzdCJ9LHsiYWNsIjoicHVibGljLXJlYWQifSx7InN1Y2Nlc3NfYWN0aW9uX3JlZGlyZWN0IjoiaHR0cDovL215LmNsb3VkYXBwLmxvY2FsL3VwbG9hZHMvczMifSxbInN0YXJ0cy13aXRoIiwiJGtleSIsInVwbG9hZHMvcUwvIl1dfQ=="
-        }
-      }
+  ```js
+  {
+    "uploads_remaining": 10,
+    "max_upload_size":   26214400,
+    "url":               "http://f.cl.ly",
+    "params": {
+      "AWSAccessKeyId":          "AKIAIDPUZISHSBEOFS6Q",
+      "key":                     "items/qL/${filename}",
+      "acl":                     "public-read",
+      "success_action_redirect": "http://my.cl.ly/items/s3",
+      "signature":               "2vRWmaSy46WGs0MDUdLHAqjSL8k=",
+      "policy":                  "eyJleHBpcmF0aW9uIjoiMjAxMC0wNC0wMVQwMDowMDowMFoiLCJjb25kaXRpb25zIjpbeyJidWNrZXQiOiJsaW5lYnJlYWstdGVzdCJ9LHsiYWNsIjoicHVibGljLXJlYWQifSx7InN1Y2Nlc3NfYWN0aW9uX3JlZGlyZWN0IjoiaHR0cDovL215LmNsb3VkYXBwLmxvY2FsL3VwbG9hZHMvczMifSxbInN0YXJ0cy13aXRoIiwiJGtleSIsInVwbG9hZHMvcUwvIl1dfQ=="
+    }
+  }
+  ```
 
 ### Response With Pro Plan
 
 - Status: 200 OK
 - Body:
 
-      {
-        "max_upload_size":   262144000,
-        "url":               "http://f.cl.ly",
-        "params": {
-          "AWSAccessKeyId":          "AKIAIDPUZISHSBEOFS6Q",
-          "key":                     "items/qL/${filename}",
-          "acl":                     "public-read",
-          "success_action_redirect": "http://my.cl.ly/items/s3",
-          "signature":               "2vRWmaSy46WGs0MDUdLHAqjSL8k=",
-          "policy":                  "eyJleHBpcmF0aW9uIjoiMjAxMC0wNC0wMVQwMDowMDowMFoiLCJjb25kaXRpb25zIjpbeyJidWNrZXQiOiJsaW5lYnJlYWstdGVzdCJ9LHsiYWNsIjoicHVibGljLXJlYWQifSx7InN1Y2Nlc3NfYWN0aW9uX3JlZGlyZWN0IjoiaHR0cDovL215LmNsb3VkYXBwLmxvY2FsL3VwbG9hZHMvczMifSxbInN0YXJ0cy13aXRoIiwiJGtleSIsInVwbG9hZHMvcUwvIl1dfQ=="
-        }
-      }
+  ```js
+  {
+    "max_upload_size":   262144000,
+    "url":               "http://f.cl.ly",
+    "params": {
+      "AWSAccessKeyId":          "AKIAIDPUZISHSBEOFS6Q",
+      "key":                     "items/qL/${filename}",
+      "acl":                     "public-read",
+      "success_action_redirect": "http://my.cl.ly/items/s3",
+      "signature":               "2vRWmaSy46WGs0MDUdLHAqjSL8k=",
+      "policy":                  "eyJleHBpcmF0aW9uIjoiMjAxMC0wNC0wMVQwMDowMDowMFoiLCJjb25kaXRpb25zIjpbeyJidWNrZXQiOiJsaW5lYnJlYWstdGVzdCJ9LHsiYWNsIjoicHVibGljLXJlYWQifSx7InN1Y2Nlc3NfYWN0aW9uX3JlZGlyZWN0IjoiaHR0cDovL215LmNsb3VkYXBwLmxvY2FsL3VwbG9hZHMvczMifSxbInN0YXJ0cy13aXRoIiwiJGtleSIsInVwbG9hZHMvcUwvIl1dfQ=="
+    }
+  }
+  ```
 
 ### Errors
 
@@ -86,12 +83,13 @@ limit. If that limit has been met, the `params` attribute will be missing, and
 - Link: `<http://store.getcloudapp.com/cart?email=arthur%40dent.com>; rel="payment"`
 - Body:
 
-      {
-        "uploads_remaining": 0,
-        "max_upload_size":   26214400,
-        "url":               "http://f.cl.ly"
-      }
-
+  ```js
+  {
+    "uploads_remaining": 0,
+    "max_upload_size":   26214400,
+    "url":               "http://f.cl.ly"
+  }
+  ```
 
 ## Upload File to S3
 
@@ -115,7 +113,6 @@ Send the file to be uploaded as the parameter named `file`.
 
 - Status: 303 See Other
 
-
 ## Follow Redirect
 
 Finally, ping CloudApp and receive the details of the newly uploaded file.
@@ -135,21 +132,23 @@ the upload process.
 - Status: 200 OK
 - Body:
 
-      {
-        "href":          "http://my.cl.ly/items/1912559",
-        "name":          "CloudApp Logo.png",
-        "private":       false,
-        "subscribed":    false,
-        "url":           "http://cl.ly/2wr4",
-        "content_url":   "http://cl.ly/2wr4/CloudApp%20Logo.png",
-        "item_type":     "image",
-        "view_counter":  0,
-        "icon":          "http://my.cl.ly/images/new/item-types/image.png",
-        "remote_url":    "http://f.cl.ly/items/7c7aea1395c3db0aee18/CloudApp%20Logo.png",
-        "thumbnail_url": "http://thumbs.cl.ly/2wr4",
-        "redirect_url":  null,
-        "source":        "Cloud/1.5.1 CFNetwork/520.0.13 Darwin/11.0.0 (x86_64) (MacBookPro5%2C5)",
-        "created_at":    "2010-10-23T19:50:13Z",
-        "updated_at":    "2010-10-23T19:50:13Z",
-        "deleted_at":    null
-      }
+  ```js
+  {
+    "href":          "http://my.cl.ly/items/1912559",
+    "name":          "CloudApp Logo.png",
+    "private":       false,
+    "subscribed":    false,
+    "url":           "http://cl.ly/2wr4",
+    "content_url":   "http://cl.ly/2wr4/CloudApp%20Logo.png",
+    "item_type":     "image",
+    "view_counter":  0,
+    "icon":          "http://my.cl.ly/images/new/item-types/image.png",
+    "remote_url":    "http://f.cl.ly/items/7c7aea1395c3db0aee18/CloudApp%20Logo.png",
+    "thumbnail_url": "http://thumbs.cl.ly/2wr4",
+    "redirect_url":  null,
+    "source":        "Cloud/1.5.1 CFNetwork/520.0.13 Darwin/11.0.0 (x86_64) (MacBookPro5%2C5)",
+    "created_at":    "2010-10-23T19:50:13Z",
+    "updated_at":    "2010-10-23T19:50:13Z",
+    "deleted_at":    null
+  }
+  ```
