@@ -5,9 +5,9 @@ examples:
 
 * [BlueNube](http://itunes.apple.com/us/app/bluenube/id420282258?mt=8): CloudApp client for iPad
 * [Cloud2go](http://cloud2goapp.com/): powerful iPhone client to access CloudApp on the go
-* **[Cloudette](http://cloudetteapp.com/)**: free CloudApp iPhone client
+* [Cloudette](http://cloudetteapp.com/): free CloudApp iPhone client
 * **[Cloudier](http://cloudierapp.com/)**: an iOS client for CloudApp
-* [ClouDrop](http://itunes.apple.com/us/app/cloudrop-for-cloudapp/id493848413?mt=8): full-featured CloudApp iOS app
+* **[ClouDrop](http://itunes.apple.com/us/app/cloudrop-for-cloudapp/id493848413?mt=8)**: full-featured CloudApp iOS app
 * [DropBook](http://itunes.apple.com/us/app/dropbook/id408384997?mt=12): share to Facebook using CloudApp
 * [Doxie](http://www.getdoxie.com/): scan directly into the cloud
 * **[FluffyApp](http://fluffyapp.com/)**: CloudApp client for Windows
