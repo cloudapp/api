@@ -5,6 +5,10 @@ integrate your application with CloudApp. You might want to check out other
 great [third-party applications](https://github.com/cloudapp/api/blob/master/third-party-apps.md)
 who make use of the API.
 
+There is a good chance most of the work is already cut out for you. A variety of
+[third-party client libraries](https://github.com/cloudapp/api/blob/master/wrappers.md)
+are available to interface with the CloudApp API.
+
 ## Usage
 
 You can use the CloudApp API to [register an account](https://github.com/cloudapp/api/blob/master/register.md),
