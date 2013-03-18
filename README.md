@@ -1,16 +1,16 @@
-# API v2
+# The CloudApp Hypermedia API
 
 This API is under active development. **Breaking changes will occur.**
 
-There is one important principle to take into account when consuming this API
-and reading its documentation. **We guarantee the existence of one and only one
-URL:** `https://api.getcloudapp.com/` Your code shouldn't know about or care
-what other URLs exist in the system.
+## Libraries
 
-## Linking
+_**TODO:** Encourage the use of an existing client library._
 
-Interacting with the various parts of the API is done by following links.
+## Hypermedia?
 
-## Templates
-## HTTP Verbs
-## Authentication
+_**TODO:** Explain the virtues and considerations of hypermedia consumption._
+
+## Collection+JSON
+
+_**TODO:** Brief overview of CJ touching on following links and submitting
+templates._
