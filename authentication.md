@@ -2,7 +2,8 @@
 
 Authenticate by passing an account's token in the `Authorization` HTTP header.
 Exchange account credentials for a token by making an HTTP Basic request to
-the authenticate URL. The response will be an [account representation](TODO).
+the authenticate URL. The response will be an [account
+representation](representations/account.md).
 
 ```bash
 $ curl -i -u arthur@dent.com http://api.getcloudapp.dev/authorization
@@ -37,7 +38,6 @@ Connection: close
           { "name": "email", "value": "arthur@dent.com" },
           { "name": "token", "value": "abc123" },
           { "name": "registered", "value": "2011-12-14T21:56:50Z" },
-          { "name": "domain", "value": "localhost:5000" },
           { "name": "pro_expiration", "value": "2013-03-23" }
         ]
       }
@@ -100,7 +100,7 @@ Connection: close
         "href": "http://api.getcloudapp.dev/drops/509",
         "links": [
           { "rel": "collection", "href": "http://api.getcloudapp.dev/drops" },
-          { "rel": "canonical", "href": "http://localhost:5000/image/2n1p1F2p3l2x" },
+          { "rel": "canonical", "href": "http://cl.dev/image/2n1p1F2p3l2x" },
           { "rel": "icon", "href": "https://secure.assets.my.cl.dev/images/thumbnails/unknown.png" }
         ],
         "data": [
@@ -117,7 +117,7 @@ Connection: close
         "href": "http://api.getcloudapp.dev/drops/490",
         "links": [
           { "rel": "collection", "href": "http://api.getcloudapp.dev/drops" },
-          { "rel": "canonical", "href": "http://localhost:5000/0U3E470t3U2q" },
+          { "rel": "canonical", "href": "http://cl.dev/0U3E470t3U2q" },
           { "rel": "icon", "href": "https://secure.assets.my.cl.dev/images/thumbnails/bookmark.png" }
         ],
         "data": [
