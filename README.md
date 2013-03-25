@@ -31,3 +31,11 @@ templates._
 
   - [first, previous, next](representations/pagination.md)
   - [next-stream](representations/drops-streaming-pagination.md)
+
+
+## Types
+
+  - Dates and Times: Represented in [ISO-8601][iso8601] format.
+
+
+[iso8601]: http://en.wikipedia.org/wiki/ISO_8601
