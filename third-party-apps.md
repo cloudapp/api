@@ -13,7 +13,7 @@ examples:
 * **[FluffyApp](http://fluffyapp.com/)**: CloudApp client for Windows
 * [Hojoki](http://hojoki.com): Make all your cloud apps work as one
 * [Komocloud](http://itunes.apple.com/us/app/komocloud/id487186645?mt=8): CloudApp client for iPhone
-* [Nuvola for Andriod](https://play.google.com/store/apps/details?id=com.eflatgames.cloudysky): CloudApp client for Andriod
+* [Nuvola for Android](https://play.google.com/store/apps/details?id=com.eflatgames.cloudysky): CloudApp client for Android
 * [Nuvola for Windows Phone 8](http://www.windowsphone.com/en-us/store/app/nuvola/e5255995-1bff-45ce-ba92-aa74dd35c278): CloudApp client for Windows Phone 8
 * [OsiriX](http://software.kanteron.com/cloudapp/): plugin for OsiriX
 * [py-cloudapp](https://github.com/abhinandh/py-cloudapp): PyQt based, drag and drop uploader that runs on Ubuntu
