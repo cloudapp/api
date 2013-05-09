@@ -12,6 +12,7 @@ examples:
 * [Doxie](http://www.getdoxie.com/): scan directly into the cloud
 * **[FluffyApp](http://fluffyapp.com/)**: CloudApp client for Windows
 * [Hojoki](http://hojoki.com): Make all your cloud apps work as one
+* [iFiles](http://www.ifilesapp.com): A file manager, viewer, editor, and more
 * [Komocloud](http://itunes.apple.com/us/app/komocloud/id487186645?mt=8): CloudApp client for iPhone
 * [Nuvola for Android](https://play.google.com/store/apps/details?id=com.eflatgames.cloudysky): CloudApp client for Android
 * [Nuvola for Windows Phone 8](http://www.windowsphone.com/en-us/store/app/nuvola/e5255995-1bff-45ce-ba92-aa74dd35c278): CloudApp client for Windows Phone 8
