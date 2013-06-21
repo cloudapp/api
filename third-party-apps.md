@@ -7,6 +7,7 @@ examples:
 * [Cloud2go](http://cloud2goapp.com/): powerful iPhone client to access CloudApp on the go
 * [Cloudette](http://cloudetteapp.com/): free CloudApp iPhone client
 * **[Cloudier](http://cloudierapp.com/)**: an iOS client for CloudApp
+* [Cloudit](https://play.google.com/store/apps/details?id=io.invaders.android.cloudit): an Android client for CloudApp
 * **[ClouDrop](http://itunes.apple.com/us/app/cloudrop-for-cloudapp/id493848413?mt=8)**: full-featured CloudApp iOS app
 * [DropBook](http://itunes.apple.com/us/app/dropbook/id408384997?mt=12): share to Facebook using CloudApp
 * [Doxie](http://www.getdoxie.com/): scan directly into the cloud
