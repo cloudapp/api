@@ -19,6 +19,7 @@ examples:
 * [Nuvola for Windows Phone 8](http://www.windowsphone.com/en-us/store/app/nuvola/e5255995-1bff-45ce-ba92-aa74dd35c278): CloudApp client for Windows Phone 8
 * [OsiriX](http://software.kanteron.com/cloudapp/): plugin for OsiriX
 * [py-cloudapp](https://github.com/abhinandh/py-cloudapp): PyQt based, drag and drop uploader that runs on Ubuntu
+* [RainDrop](https://itunes.apple.com/app/raindrop-for-cloudapp/id674681667?mt=8): a universal iOS client for CloudApp
 * [Receipts](http://www.tidalpool.ca/receipts/index.html): a simple way to share receipts with CloudApp
 * **[Screeny](http://www.screenyapp.com/)**: screen recording app with CloudApp integration for Mac
 * [Stratus](http://www.getstratusapp.com/): beautiful iPhone and iPad client
