@@ -27,6 +27,7 @@ examples:
 * [Twitterrific](http://twitterrific.com/): gorgeous Twitter client with CloudApp integration for Mac and iOS
 * [Viewer](https://itunes.apple.com/app/viewer-for-cloudapp/id674034026?mt=8): Simple and intuitive client for iPhone
 * [Weet](http://weetapp.com/): Twitter client with CloudApp integration for Mac and iOS
+* [CargoLifter](http://www.chungwasoft.com/cargolifter/): Mail plugin, which automatically uploads emails attachments to the cloud.
 
 ## Adding new applications
 
