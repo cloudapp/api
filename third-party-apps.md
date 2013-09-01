@@ -4,6 +4,7 @@ Great applications are already using the CloudApp API. Here are some popular
 examples:
 
 * [BlueNube](http://itunes.apple.com/us/app/bluenube/id420282258?mt=8): CloudApp client for iPad
+* [CargoLifter](http://www.chungwasoft.com/cargolifter/): Mail plugin, which automatically uploads emails attachments to the cloud.
 * [Cloud2go](http://cloud2goapp.com/): powerful iPhone client to access CloudApp on the go
 * [Cloudette](http://cloudetteapp.com/): free CloudApp iPhone client
 * **[Cloudier](http://cloudierapp.com/)**: an iOS client for CloudApp
