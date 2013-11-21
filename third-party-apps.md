@@ -5,6 +5,7 @@ examples:
 
 * [BlueNube](http://itunes.apple.com/us/app/bluenube/id420282258?mt=8): CloudApp client for iPad
 * [CargoLifter](http://www.chungwasoft.com/cargolifter/): Mail plugin, which automatically uploads emails attachments to the cloud.
+* [ChromaCloud](https://chrome.google.com/webstore/detail/chromacloud/jdpfockeefnnnkdajngibkacghcbabfe): Chrome extension for uploading current url to CloudApp and putting the link on the clipboard.
 * [Cloud2go](http://cloud2goapp.com/): powerful iPhone client to access CloudApp on the go
 * [Cloudette](http://cloudetteapp.com/): free CloudApp iPhone client
 * **[Cloudier](http://cloudierapp.com/)**: an iOS client for CloudApp
