@@ -13,6 +13,7 @@ examples:
 * **[ClouDrop](http://itunes.apple.com/us/app/cloudrop-for-cloudapp/id493848413?mt=8)**: full-featured CloudApp iOS app
 * [DropBook](http://itunes.apple.com/us/app/dropbook/id408384997?mt=12): share to Facebook using CloudApp
 * [Doxie](http://www.getdoxie.com/): scan directly into the cloud
+* [Finapp](http://www.windowsphone.com/en-gb/store/app/finapp/ec4ab022-bb0d-4805-87c5-c0967a33aa55): a simple CloudApp client for Windows Phone
 * **[FluffyApp](http://fluffyapp.com/)**: CloudApp client for Windows
 * [Hojoki](http://hojoki.com): Make all your cloud apps work as one
 * [iFiles](http://www.ifilesapp.com): A file manager, viewer, editor, and more
