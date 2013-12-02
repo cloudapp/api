@@ -8,6 +8,7 @@ examples:
 * [ChromaCloud](https://chrome.google.com/webstore/detail/chromacloud/jdpfockeefnnnkdajngibkacghcbabfe): Chrome extension to bookmark the current URL.
 * [Cloud2go](http://cloud2goapp.com/): powerful iPhone client to access CloudApp on the go
 * [Cloudette](http://cloudetteapp.com/): free CloudApp iPhone client
+* [Cloudie](http://getcloudie.com): an iOS client for CloudApp
 * **[Cloudier](http://cloudierapp.com/)**: an iOS client for CloudApp
 * **[Cloudit](https://play.google.com/store/apps/details?id=io.invaders.android.cloudit)**: an Android client for CloudApp
 * **[ClouDrop](http://itunes.apple.com/us/app/cloudrop-for-cloudapp/id493848413?mt=8)**: full-featured CloudApp iOS app
