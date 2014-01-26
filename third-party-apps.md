@@ -12,6 +12,7 @@ examples:
 * **[Cloudier](http://cloudierapp.com/)**: an iOS client for CloudApp
 * **[Cloudit](https://play.google.com/store/apps/details?id=io.invaders.android.cloudit)**: an Android client for CloudApp
 * **[ClouDrop](http://itunes.apple.com/us/app/cloudrop-for-cloudapp/id493848413?mt=8)**: full-featured CloudApp iOS app
+* [CloudSend](http://www.trijstudios.com/cloudsend): Send websites and videos from your computer to your iPhone using CloudApp.
 * [DropBook](http://itunes.apple.com/us/app/dropbook/id408384997?mt=12): share to Facebook using CloudApp
 * [Doxie](http://www.getdoxie.com/): scan directly into the cloud
 * [Finapp](http://www.windowsphone.com/en-gb/store/app/finapp/ec4ab022-bb0d-4805-87c5-c0967a33aa55): a simple CloudApp client for Windows Phone
