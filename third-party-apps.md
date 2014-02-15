@@ -28,6 +28,7 @@ examples:
 * [RainDrop](https://itunes.apple.com/app/raindrop-for-cloudapp/id674681667?mt=8): a universal iOS client for CloudApp
 * [Receipts](http://www.tidalpool.ca/receipts/index.html): a simple way to share receipts with CloudApp
 * **[Screeny](http://www.screenyapp.com/)**: screen recording app with CloudApp integration for Mac
+* **[Shoots & Leaves](https://smartgoat.com/shoots-and-leaves/)**: Upload a photo to CloudApp, then use the link to that photo to create a reminder, email, or more
 * [Stratus](http://www.getstratusapp.com/): beautiful iPhone and iPad client
 * **[Tweetbot](http://tapbots.com/software/tweetbot/)**: full-featured iPhone Twitter client with a lot of personality and CloudApp integration
 * [Twitterrific](http://twitterrific.com/): gorgeous Twitter client with CloudApp integration for Mac and iOS
