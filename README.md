@@ -19,6 +19,7 @@ templates._
 
   - [root](representations/root.md)
   - [account](representations/account.md)
+  - [account messages](representations/account_messages.md)
   - [drop](representations/drop.md)
   - [drops-template](representations/drops-template.md)
   - [drops-collection](representations/drops-collection.md)
