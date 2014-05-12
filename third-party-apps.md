@@ -33,6 +33,7 @@ examples:
 * [Stratus](http://www.getstratusapp.com/): beautiful iPhone and iPad client
 * **[Tweetbot](http://tapbots.com/software/tweetbot/)**: full-featured iPhone Twitter client with a lot of personality and CloudApp integration
 * [Twitterrific](http://twitterrific.com/): gorgeous Twitter client with CloudApp integration for Mac and iOS
+* [Up](http://www.axiixc.com/apps/up/): Up is a full-featured CloudApp client, beautifully designed for iOS 7.
 * [Viewer](https://itunes.apple.com/app/viewer-for-cloudapp/id674034026?mt=8): Simple and intuitive client for iPhone
 * [Weet](http://weetapp.com/): Twitter client with CloudApp integration for Mac and iOS
 
