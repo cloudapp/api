@@ -1,0 +1,128 @@
+FORMAT: 1A
+HOST: http://api.cl.ly/
+
+# CloudApp API
+
+
+## Collection [/v3/collection]
+
+### Fetch collection [GET]
+
++ Response 200 (application/json)
+
+        {
+            "data": [
+                { "id": 1, links: [] },
+                { "id": 2, links: [] }
+            ],
+        
+            "links": {
+                "next_page": {
+                    "href": "/v3/collection?after=12345678",
+                    "method: "GET"
+                }
+            }
+        }
+        
+
+### Create record [POST]
++ Response 201 (application/json)
+
+        {
+            "id": 1,
+            "links": []
+        }
+
+
++ Response 422 (application/json)
+
+        {
+            "errors": [
+                "name": "file_size",
+                "message": "File size is too large",
+                "status": ""
+            ]
+        }
+
+## Collection item [/v3/collection/{id}]
+
++ Parameters
+    + id (number) - ID of record
+
+    
+### Fetch one record [GET]
+
++ Response 200 (application/json)
+
+        {
+            "id": 1,
+            "links": []
+        }
+
+
+### Update record [PUT]
+
++ Response 200 (application/json)
+
+        {
+            "id": 1,
+            "links": []
+        }
+
+### Remove record [DELETE]
++ Response 204
+
+### 
+
+
+## Items [/v3/items]
+
+### List all items [GET]
+
++ Response 200 (application/json)
+
+        {
+            "data": [
+                {
+                    "slug": "0J0P2A3I1s2p",
+                    "name": "Image 2015-03-27 at 4.36.39 pm (1).png",
+                    "created_at": "2015-10-05T23:53:46Z",
+                    "updated_at": "2015-10-27T12:42:23Z",
+                    "private": true,
+                    "item_type": "image",
+                    "view_counter": 0,
+                    "content_url": "http://cl.ly/image/0J0P2A3I1s2p/Image%202015-03-27%20at%204.36.39%20pm%20(1).png",
+                    "redirect_url": null,
+                    "remote_url": "http://f.cl.ly/items/2C230W0V0X3c3L3Y2q3d/Image%202015-03-27%20at%204.36.39%20pm%20(1).png",
+                    "source": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36"
+                },
+                {
+                    "slug": "3C041n09450S",
+                    "name": "Image 2015-03-27 at 4.36.39 pm (2).png",
+                    "created_at": "2015-10-05T23:52:26Z",
+                    "updated_at": "2015-10-27T12:42:24Z",
+                    "private": true,
+                    "item_type": "image",
+                    "view_counter": 0,
+                    "content_url": "http://cl.ly/image/3C041n09450S/Image%202015-03-27%20at%204.36.39%20pm%20(2).png",
+                    "redirect_url": null,
+                    "remote_url": "http://f.cl.ly/items/1R3f2D0f0t053i092q3V/Image%202015-03-27%20at%204.36.39%20pm%20(2).png",
+                    "source": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36"
+                }
+              ],
+            "links": {
+                "next_url": {
+                    "method": "GET",
+                    "href": "http://my.cl.ly:3000/v3/items?before=1444089146&per_page=20"
+                },
+                "prev_url": {
+                    "method": "GET",
+                    "href": "http://my.cl.ly:3000/v3/items?after=1447078556&per_page=20"
+                }
+              },
+            "meta": {
+                "count": 39
+            }
+        }
+
+### 
