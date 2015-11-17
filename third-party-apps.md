@@ -7,6 +7,7 @@ examples:
 * [CargoLifter](http://www.chungwasoft.com/cargolifter/): Mail plugin, which automatically uploads emails attachments to the cloud.
 * [ChromaCloud](https://chrome.google.com/webstore/detail/chromacloud/jdpfockeefnnnkdajngibkacghcbabfe): Chrome extension to bookmark the current URL.
 * [Cloud2go](http://cloud2goapp.com/): powerful iPhone client to access CloudApp on the go
+* **[Cloudee](https://appworld.blackberry.com/webstore/content/50009887)**: CloudApp client for BlackBerry 10
 * [Cloudette](http://cloudetteapp.com/): free CloudApp iPhone client
 * [Cloudie](http://getcloudie.com): an iOS client for CloudApp
 * **[Cloudier](http://cloudierapp.com/)**: an iOS client for CloudApp
