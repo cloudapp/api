@@ -37,6 +37,7 @@ examples:
 * [Up](http://www.axiixc.com/apps/up/): Up is a full-featured CloudApp client, beautifully designed for iOS 7.
 * [Viewer](https://itunes.apple.com/app/viewer-for-cloudapp/id674034026?mt=8): Simple and intuitive client for iPhone
 * [Weet](http://weetapp.com/): Twitter client with CloudApp integration for Mac and iOS
+* [CargoLifter](http://www.chungwasoft.com/cargolifter/): Mail plugin, which automatically uploads emails attachments to the cloud.
 
 ## Adding new applications
 
