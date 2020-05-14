@@ -1,4 +1,8 @@
+# The API is no longer supported
+
 # The CloudApp API
+
+
 
 Welcome to the CloudApp developer docs. Here you can find everything you need to
 integrate your application with CloudApp. You might want to check out other
