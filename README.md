@@ -1,4 +1,4 @@
-# The API is no longer supported
+# NOTE: The API is no longer supported
 
 # The CloudApp API
 
